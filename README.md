@@ -32,3 +32,10 @@ DB_PASSWORD=laravel_pass
 マイグレーション実行
 
 バッチコマンド実行
+
+
+composer require tymon/jwt-auth:1.0.0-rc.5
+
+composer require lcobucci/jwt:3.3.3
+
+php artisan jwt:secret
